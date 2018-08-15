@@ -14,7 +14,7 @@ require ('cabecalho.php');
         <div class="three wide column">
 
             <div class="ui medium image">
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/alemanha.jpg">
                 <h3> Alemanha </h3>
                 <a class="item" href="pais.php"><button class="ui teal button">Mais</button></a>
             </div>
@@ -24,7 +24,7 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/franca.jpg">
                 <h3> França </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -36,7 +36,7 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/espanha.jpg">
                 <h3> Espanha </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -48,7 +48,7 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/grecia.jpg">
                 <h3> Grécia </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -67,7 +67,7 @@ require ('cabecalho.php');
     </div>
 </div>
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 <div class = "ui center aligned grid">
 
@@ -76,7 +76,7 @@ require ('cabecalho.php');
         <div class="three wide column">
 
             <div class="ui medium image">
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/irlanda.jpg">
                 <h3> Irlanda </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
             </div>
@@ -86,7 +86,7 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/italia.jpg">
                 <h3> Itália </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -98,7 +98,7 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/noruega.jpg">
                 <h3> Noruega </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -110,7 +110,7 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/portugal.jpg">
                 <h3> Portugal </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -120,7 +120,7 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="../imagens/england.jpg">
+                <img src="../imagens/suica.jpg">
                 <h3> Suíça </h3>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 

@@ -60,7 +60,7 @@ class CrudUsuario
 
     public function updateUsuario(Usuario $usuario){
         $this->conexao = DBConnection::getConexao();
-        $sql = "update usuario set nome = '".$usuario->getNome()."', email = '".$usuario->getEmail()."', data_nascimento = '".$usuario->getDataNascimento()."',senha = '".$usuario->getSenha()."' where id_usuario = ".$usuario->getId();
+        $sql = "update usuario set nome = '".$usuario->getNome()."', email = '".$usuario->getEmail()."', data_nascimento = '".$usuario->getDataNascimento()."',senha = '".$usuario->getSenha()."' where id_usuario = ".$usuario->getIdUsuario();
         echo $sql;
         try {
             $resultado = $this->conexao->exec($sql);

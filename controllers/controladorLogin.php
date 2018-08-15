@@ -21,10 +21,10 @@ function fazLogin($email, $senha){
     if ($resultado != false){
         session_start();
         $_SESSION['usuario'] = $resultado['nome'];
-//        $_SESSION['tipo_user'] = $resultado['tipo_user'] ;
+        $_SESSION['tipo_user'] = $resultado['tipo_user'] ;
         $_SESSION['esta_logado'] = true;
 
-        header('location: ../views/indexUsu.php');
+        header('location: ../views/index.php');
 
     }else {
         logar();

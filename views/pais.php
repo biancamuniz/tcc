@@ -17,7 +17,7 @@ require ('cabecalho.php');
         <div class="three wide column">
 
             <div class="ui medium image">
-                <img src="https://www.ruralsoft.com.br/wp-content/uploads/2016/04/20150414015927.jpeg">
+                <img src="../imagens/brightonp.jpg">
                 <h3> Brighton </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque blanditiis commodi eos harum illum itaque, minus molestiae quaerat quasi qui quo, quos saepe sit sunt temporibus vitae voluptas voluptate.</p>
                 <a class="item" href="cidade.php"><button class="ui teal button">Mais</button></a>
@@ -28,8 +28,8 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="https://www.ruralsoft.com.br/wp-content/uploads/2016/04/20150414015927.jpeg">
-                <h3> Brighton </h3>
+                <img src="../imagens/london.jpg">
+                <h3> Londres </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque blanditiis commodi eos harum illum itaque, minus molestiae quaerat quasi qui quo, quos saepe sit sunt temporibus vitae voluptas voluptate.</p>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -41,8 +41,8 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="https://www.ruralsoft.com.br/wp-content/uploads/2016/04/20150414015927.jpeg">
-                <h3> Brighton </h3>
+                <img src="../imagens/oxford.jpg">
+                <h3> Oxford </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque blanditiis commodi eos harum illum itaque, minus molestiae quaerat quasi qui quo, quos saepe sit sunt temporibus vitae voluptas voluptate.</p>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -54,8 +54,8 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="https://www.ruralsoft.com.br/wp-content/uploads/2016/04/20150414015927.jpeg">
-                <h3> Brighton </h3>
+                <img src="../imagens/manchester.jpg">
+                <h3> Manchester </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque blanditiis commodi eos harum illum itaque, minus molestiae quaerat quasi qui quo, quos saepe sit sunt temporibus vitae voluptas voluptate.</p>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
@@ -65,8 +65,8 @@ require ('cabecalho.php');
 
             <div class="ui medium image">
 
-                <img src="https://www.ruralsoft.com.br/wp-content/uploads/2016/04/20150414015927.jpeg">
-                <h3> Brighton </h3>
+                <img src="../imagens/bristol.jpg">
+                <h3> Bristol </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque blanditiis commodi eos harum illum itaque, minus molestiae quaerat quasi qui quo, quos saepe sit sunt temporibus vitae voluptas voluptate.</p>
                 <a class="item"><button class="ui teal button">Mais</button></a>
 
