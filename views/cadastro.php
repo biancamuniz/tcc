@@ -75,7 +75,8 @@
 
                 <br>
 
-                <input type="submit" name="gravar" class="ui fluid large teal button" value="Cadastrar"/>
+<!--                <input type="submit" name="gravar" class="ui fluid large teal button" value="Cadastrar"/>-->
+                <a class="item"><button type="submit" name="gravar" id="aviso" class="ui fluid large teal button">Cadastrar</button></a>
 
 <!--                <div class="ui fluid large teal submit  >Crie sua conta</div>-->
             </div>
@@ -90,6 +91,7 @@
         </div>
     </div>
 </div>
+
 
 
 

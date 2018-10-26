@@ -9,7 +9,7 @@
 class DBConnection
 {
     const HOST      = "localhost";
-    const NOMEBANCO = "3info3";
+    const NOMEBANCO = "tcc";
     const USUARIO   = "root";
     const SENHA     = "";
     //!!!Substitua daqui para baixo

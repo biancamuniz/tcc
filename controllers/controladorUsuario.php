@@ -68,10 +68,10 @@ switch ($acao){
             $newUsu = new Usuario($nome, $email, $senha, $data_nascimento, $tipo_user);
             $res = $crud->updateUsuario($newUsu);
             echo $res;
-            // CRIAR PÁGINA DE PERFIL header('Location: admin.php');
+            header('Location: ../views/perfil.php');
         }else{
             $cat = $crud->getUsuario($_GET['id']);
-            // CRIAR PÁGINA DE ATUALIZAR include '../views/atualizar.php';
+           include '../views/atualizar.php';
         }
         break;
 

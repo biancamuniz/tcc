@@ -24,7 +24,7 @@ function fazLogin($email, $senha){
         $_SESSION['tipo_user'] = $resultado['tipo_user'] ;
         $_SESSION['esta_logado'] = true;
 
-        header('location: ../views/index.php');
+        header('location: ../views/perfil.php');
 
     }else {
         logar();
@@ -48,6 +48,13 @@ if ($acao == 'logar'){
 } elseif ($_GET['acao'] == 'fazLogin'){
     $res = fazLogin($_POST['email'], $_POST['senha']);
 }
+
+if ($acao == 'logar'){
+    logar();
+} elseif ($_GET['acao'] == 'sair'){
+    $res = sair();
+}
+
 //
 //if (isset($_GET['acao'])) {
 //    $acao = $_GET['acao'];

@@ -7,8 +7,6 @@
 
 ?>
 
-
-
     <div class="img principal">
 
         <img src="../imagens/OPENING.png" width="100%">

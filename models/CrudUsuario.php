@@ -70,7 +70,7 @@ class CrudUsuario
         }
     }
 
-    public function deleteUsuario(int $id_usuario){
+    public function deleteUsuario($id_usuario){
         $this->conexao = DBConnection::getConexao();
         $sql = "delete from usuario where id_usuario = ".$id_usuario;
         try {
