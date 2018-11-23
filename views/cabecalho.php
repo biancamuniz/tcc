@@ -18,7 +18,7 @@
     </script>
 
 
-    <title> Página Inicial </title>
+    <title> HOME </title>
 
 </head>
 <body>
@@ -27,7 +27,10 @@
 
     <div class="ui fixed secondary menu">
 
+
         <div class="item image"> <img src="../imagens/logo.png"> </div>
+        <h3 class="center aligned title">GUIA PARA MOCHILEIROS</h3>
+        <br>
 
 
 
@@ -41,12 +44,12 @@
                 <div class="text">DESTINOS</div>
                 <i class="dropdown icon"></i>
                 <div class="menu">
-                    <div class="ui item" data-value="europa"> <a href="continente.php">EUROPA</a> </div>
-                    <div class="ui item" data-value="america"> <a href="continente.php">AMÉRICA</a> </div>
-                    <div class="ui item" data-value="asia"> <a href="continente.php">ÁSIA</a> </div>
-                    <div class="item" data-value="africa"> <a href="continente.php">ÁFRICA</a> </div>
-                    <div class="item" data-value="oceania"> <a href="continente.php">OCEANIA</a> </div>
-                    <div class="item" data-value="antartida"> <a href="continente.php">ANTÁRTIDA</a> </div>
+                    <div class="ui item" data-value="europa" id="1"> <a href="../views/continente.php">EUROPA</a> </div>
+                    <div class="ui item" data-value="america" id="2"> <a href="continente.php">AMÉRICA</a> </div>
+                    <div class="ui item" data-value="asia" id="3"> <a href="continente.php">ÁSIA</a> </div>
+                    <div class="item" data-value="africa" id="4"> <a href="continente.php">ÁFRICA</a> </div>
+                    <div class="item" data-value="oceania" id="5"> <a href="continente.php">OCEANIA</a> </div>
+                    <div class="item" data-value="antartida" id="6"> <a href="continente.php">ANTÁRTIDA</a> </div>
 
                 </div>
 <!--                <i class="dropdown icon"></i>-->
@@ -73,7 +76,7 @@
             <a class="item">DICAS</a>
             <a class="item">CONTATE-NOS</a>
 
-            <a href="login.php" class="item"><button class="ui teal button">Entrar</button> </a>
+            <a href="controladorLogin.php" class="item"><button class="ui teal button">Entrar</button> </a>
 <!--            <a href="../controllers/controladorLogin.php?acao=logout" class="item"><button class="ui teal button">Sair</button></a>-->
         </div>
     </div>

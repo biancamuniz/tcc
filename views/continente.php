@@ -11,15 +11,18 @@ require ('cabecalho.php');
 
     <div class="ui row">
 
-        <div class="three wide column">
 
+        <?php foreach ($paises as $pais): ?>
+        <div class="three wide column">
             <div class="ui medium image">
                 <img src="../imagens/alemanha.jpg">
                 <h3> Alemanha </h3>
                 <a class="item" href="pais.php"><button class="ui teal button">Mais</button></a>
             </div>
-
         </div>
+        <?php endforeach; ?>
+
+
         <div class="three wide column">
 
             <div class="ui medium image">
